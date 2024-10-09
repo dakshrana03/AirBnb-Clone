@@ -17,16 +17,16 @@ export default function App() {
         // Destructure the item into individual props
         {...item}
 
-        // Instead of passing every props, I pass the whole item and so its structure
-        // item={item}
+      // Instead of passing every props, I pass the whole item and so its structure
+      // item={item}
 
-        // img={item.coverImg}
-        // rating={item.stats.rating}
-        // reviewCount={item.stats.reviewCount}
-        // location={item.location}
-        // title={item.title}
-        // price={item.price}
-        // openSpots={item.openSpots}
+      // img={item.coverImg}
+      // rating={item.stats.rating}
+      // reviewCount={item.stats.reviewCount}
+      // location={item.location}
+      // title={item.title}
+      // price={item.price}
+      // openSpots={item.openSpots}
       />
     );
   });
@@ -42,3 +42,5 @@ export default function App() {
     </div>
   );
 }
+
+//Daksh Rana Clone
